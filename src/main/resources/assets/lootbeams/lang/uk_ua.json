@@ -1,0 +1,93 @@
+{
+  "modmenu.descriptionTranslation.lootbeams": "Гнучко налаштовувані промені для випалих предметів!",
+
+
+  "lootbeams.config.main": "Головне",
+
+  "lootbeams.config.main.renderNameColor": "Колір від назви",
+  "lootbeams.config.main.renderNameColor.description": "Задає колір променя відповідно до назви предмета (без урахування кольорів рідкісності).\nМає вищий пріоритет за render_rarity_color.",
+
+  "lootbeams.config.main.renderRarityColor": "Колір від рідкісності",
+  "lootbeams.config.main.enderRarityColor.description": "Задає колір променя відповідно до рідкісності предмета.",
+
+  "lootbeams.config.main.beamRadius": "Радіус променя",
+  "lootbeams.config.main.beamRadius.description": "Налаштовує радіус променя.",
+
+  "lootbeams.config.main.beamHeight": "Висота променя",
+  "lootbeams.config.main.beamHeight.description": "Налаштовує висоту променя.",
+
+  "lootbeams.config.main.beamYOffset": "Зсув по Y",
+  "lootbeams.config.main.beamYOffset.description": "Налаштовує вертикальний зсув променя.",
+
+  "lootbeams.config.main.beamAlpha": "Прозорість променя",
+  "lootbeams.config.main.beamAlpha.description": "Налаштовує прозорість променя.",
+
+  "lootbeams.config.main.beamRenderDistance": "Дальність відображення",
+  "lootbeams.config.main.beamRenderDistance.description": "Визначає, на якій відстані гравець бачить промені.\n(Примітка: предмети зникають на відстані 24 блоків - це максимальна межа.)",
+
+  "lootbeams.config.main.beamFadeDistance": "Дальність згасання",
+  "lootbeams.config.main.beamFadeDistance.description": "Визначає, на якій відстані промінь починає зникати.\n(Плавне згасання відбувається в межах 1 блоку.)",
+
+  "lootbeams.config.main.colorOverrides": "Перевизначення кольорів",
+  "lootbeams.config.main.colorOverrides.description": "Перевизначає колір променів у шістнадцятковому (hex) форматі.\nФормат: (registryname=hexcolor) або (#tagname=hexcolor).\nНаприклад: \"minecraft:stone=#00FF00\", \"#minecraft:piglin_loved=gold\".\nТакож можна вказати ID моду.",
+
+
+  "lootbeams.config.items": "Предмети",
+
+  "lootbeams.config.item.allItems": "Усі предмети",
+  "lootbeams.config.item.allItems.description": "Чи всі предмети повинні мати промені.\nМає вищий пріоритет за only_equipment та only_rare.",
+
+  "lootbeams.config.item.onlyRare": "Лише рідкісні",
+  "lootbeams.config.item.onlyRare.description": "Чи відображати промені тільки для предметів із рідкісністю.",
+
+  "lootbeams.config.item.onlyEquipment": "Лише спорядження",
+  "lootbeams.config.item.onlyEquipment.description": "Чи відображати промені тільки для спорядження.\n(Мечі, Інструменти, Броня, Щити, Луки, Арбалети, Тризуби, Стріли та Вудки)",
+
+  "lootbeams.config.item.whitelist": "Білий список",
+  "lootbeams.config.item.whitelist.description": "Список предметів, для яких промені завжди увімкнені.\nНаприклад: \"minecraft:stone\", \"minecraft:iron_ingot\".\nМожна також вказати ID моду.",
+
+  "lootbeams.config.item.blacklist": "Чорний список",
+  "lootbeams.config.item.blacklist.description": "Список предметів, для яких промені НІКОЛИ НЕ ВІДОБРАЖАЮТЬСЯ.\nМає найвищий пріоритет.\nМожна також вказати ID моду.",
+
+  
+  "lootbeams.config.nametags": "Теги предметів",
+
+  "lootbeams.config.nametags.borders": "Рамки",
+  "lootbeams.config.nametags.borders.description": "Відображати теги з рамками. Якщо вимкнено - фон буде суцільним, як у імен гравців.",
+
+  "lootbeams.config.nametags.render": "Показувати теги",
+  "lootbeams.config.nametags.render.description": "Вмикає або вимикає відображення тегів.",
+
+  "lootbeams.config.nametags.renderOnlook": "Показувати при наведенні",
+  "lootbeams.config.nametags.renderOnlook.description": "Якщо увімкнено - теги з'являються лише при наведенні на предмет.",
+
+  "lootbeams.config.nametags.renderStackCount": "Показувати кількість",
+  "lootbeams.config.nametags.renderStackCount.description": "Показує кількість предметів у стеці в тегу.",
+
+  "lootbeams.config.nametags.lookSensitivity": "Чутливість наведення",
+  "lootbeams.config.nametags.lookSensitivity.description": "Наскільки можна відвести приціл і все ще бачити тег.",
+
+  "lootbeams.config.nametags.textAlpha": "Прозорість тексту",
+  "lootbeams.config.nametags.textAlpha.description": "Налаштовує прозорість тексту тегу.",
+
+  "lootbeams.config.nametags.backgroundAlpha": "Прозорість фону",
+  "lootbeams.config.nametags.backgroundAlpha.description": "Налаштовує прозорість фону та рамок тегу.",
+
+  "lootbeams.config.nametags.scale": "Масштаб",
+  "lootbeams.config.nametags.scale.description": "Визначає розмір тегу на екрані.",
+
+  "lootbeams.config.nametags.yOffset": "Зсув по Y",
+  "lootbeams.config.nametags.yOffset.description": "Налаштовує вертикальний зсув тегу.",
+
+  "lootbeams.config.nametags.dmcLootCompat.rarities": "Рідкісності DMCLoot",
+  "lootbeams.config.nametags.dmcLootCompat.rarities.description": "Показує менший тег рідкісності для предметів із DMCLoot.",
+
+  "lootbeams.config.nametags.rarities": "Власні рідкісності",
+  "lootbeams.config.nametags.rarities.description": "Список рідкісностей, які потрібно відображати.\nНаприклад: \"Екзотичний\", \"Стародавній\".\nЦе має бути другий рядок опису предмета в інвентарі.\nЗазвичай використовується в модпаках.",
+
+  "lootbeams.config.nametags.alwaysDrawRarities": "Завжди показувати опис",
+  "lootbeams.config.nametags.alwaysDrawRarities.description": "Вказує предмети, для яких другий рядок опису завжди відображається.\nНаприклад: \"#minecraft:music_discs\" покаже автора й назву треку.\nПрацює лише для одного рядка (не для всіх зачарувань).",
+
+  "lootbeams.config.nametags.whiteRarities": "Білі рідкісності",
+  "lootbeams.config.nametags.whiteRarities.description": "Чи ігнорувати кольори рідкісностей і відображати їх білими.\n(Зазвичай використовується в модпаках)"
+}
